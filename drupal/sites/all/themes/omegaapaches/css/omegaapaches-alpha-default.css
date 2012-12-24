@@ -1,0 +1,4 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+body {
+	background: url('/sites/all/themes/omegaapaches/images/bg_picture_title.png') transparent 50% repeat fixed;
+}

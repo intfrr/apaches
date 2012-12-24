@@ -1,0 +1,38 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+div#zone-content.zone.zone-content.clearfix.container-12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+
+/*
+ * ----------------------------------------------------------
+ * Header
+ * ----------------------------------------------------------
+ */
+
+ /* Logo */
+
+div#zone-user-wrapper {
+/*.zone-wrapper.zone-user-wrapper.clearfix*/
+  position: relative;
+  background-position: 21% 54%, 52% 18%, 86% 52%;
+}
+
+div#zone-user.zone.zone-user.clearfix.container-12 {
+	width: 781px;
+}
+
+
+
+div#region-content.grid-12.region.region-content {
+  width: 1180px;
+}
+
+/* Menu */
+nav.navigation ul li a {
+  margin: 12px 10px;
+  padding: 1px 20px;
+}

@@ -1,0 +1,477 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+
+/*
+ * =================================================================
+ * Header
+ * =================================================================
+ */
+/* Logo */
+div#zone-user-wrapper {
+/*.zone-wrapper.zone-user-wrapper.clearfix*/
+  position: relative;
+  background-image: url('/sites/all/themes/omegaapaches/images/nube1.png'), url('/sites/all/themes/omegaapaches/images/nube2.png'), url('/sites/all/themes/omegaapaches/images/nube_3.png');
+  background-repeat: no-repeat;
+}
+
+/* Menu */
+div#zone-menu.zone.zone-menu.clearfix.container-12 {
+  background: #3f769a;
+  height: 72px;
+  font-family: "dimboregular", sans-serif, Arial;
+  font-size: 320%;
+  font-style: normal;
+  font-weight: 100;
+  position: relative;
+  border-radius: 12px;
+}
+
+div#region-menu nav.navigation {
+  float:left;
+  width:100%;
+  overflow:hidden;
+  position:relative;
+}
+
+ul#main-menu.links.inline.clearfix.main-menu {
+  clear:left;
+  float:left;
+  list-style:none;
+  margin:0;
+  padding:0;
+  position:relative;
+  left:50%;
+  text-align:center;
+}
+
+ul#main-menu li {
+  display:block;
+  float:left;
+  list-style:none;
+  margin: 0%;
+  padding: 0%;
+  position:relative;
+  right:50%;
+}
+
+nav.navigation ul li a {
+  display:block;
+  text-decoration:none;
+  line-height:1.1em;
+}
+
+nav.navigation ul li a:hover {
+  background: #24609f;
+  border-radius: 12px;
+
+}
+
+div#zone-menu ul#main-menu li a.active {
+  color: #ffffff;
+  /*background: #24609f;*/
+}
+
+
+
+div#zone-menu ul#main-menu li a:link, a:visited {
+  text-decoration: none;
+}
+/* Menu */
+
+/*
+ * =================================================================
+ * Content
+ * =================================================================
+ */
+
+/* Contenido */
+section#section-content {
+  z-index: 1;
+}
+
+
+
+section#section-content div.wrap-corner {
+  background: none repeat scroll 0% 0% rgb(255, 255, 255) !important;
+}
+
+
+/*div#zone-content.zone.zone-content.clearfix.container-12 {
+  margin-top: 2.6%;
+}*/
+
+/* Contenido */
+
+/* Títulos */
+.panel-panel h2.pane-title {
+  height: 72px;
+  font-family: "dimboregular", sans-serif, Arial;
+  font-size: 670%;
+  color: #24609d;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+  font-weight: 100;
+  line-height: 0.8em;
+  position: relative;
+  margin-left: 4.5%;
+  letter-spacing: 0.001em;
+  padding-top: 1.7%;
+}
+
+#contacto .promociones h2.pane-title {
+  padding-top: 4.3%;
+}
+
+/* Títulos */
+
+.panel-pane {
+    margin-top: 13%;
+} 
+
+/* Servicios */
+#servicios {
+  background: #ffffff;
+  border-radius: 32px;
+}
+
+#servicios div.pane-content {
+  padding-bottom: 0.7%;
+}
+
+/* Servicios */
+
+/* Novedades */
+#novedades {
+  background: #ffffff;
+  border-radius: 32px;
+}
+
+
+#novedades div.pane-content {
+  padding-bottom: 10%;
+  /*clear: both;
+  overflow: hidden;*/
+}
+
+/*    Slider    */
+#novedades .view-content {
+  width: 856px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 23px;
+  background: #3f769a;
+  border-radius: 22px;
+}
+
+#novedades .skin-default {
+  position: relative;
+  z-index: 1;
+}
+/*    Slider    */
+
+/*    Controles     */
+
+div.views-slideshow-controls-top {
+  position: absolute;
+  top: 161px;
+  z-index: 7;
+}
+
+#novedades span#views_slideshow_controls_text_previous_slider_view-block {
+  position: relative;
+  background-image: url('/sites/all/themes/omegaapaches/images/prev_slider.png');
+  background-repeat: no-repeat;
+  height: 40px;
+  display: inline-block;
+}
+
+#novedades span#views_slideshow_controls_text_previous_slider_view-block a{
+  visibility: hidden;
+}
+
+#novedades span#views_slideshow_controls_text_pause_slider_view-block {
+  display: none;
+}
+
+
+#novedades span#views_slideshow_controls_text_next_slider_view-block {
+  position: relative;
+  left: 753px;
+  background-image: url('/sites/all/themes/omegaapaches/images/next_slider.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+#novedades span#views_slideshow_controls_text_next_slider_view-block a {
+  visibility: hidden;
+}
+
+/*    Controles     */
+
+/*    Paginador     */
+#novedades div.views-slideshow-controls-bottom {
+  position: absolute;
+  top: 334px;
+  z-index: 7;
+  display: inline;
+  background: #ffffff;
+  border-radius: 10px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 155px;
+}
+
+#novedades div#widget_pager_bottom_slider_view-block {
+  position: relative;
+  width: auto;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+#novedades div#widget_pager_bottom_slider_view-block div.views-slideshow-pager-field-item {
+  float: left;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 5em; 
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  background: #1c1c1c;
+  border-color: #1c1c1c;
+}
+
+#novedades div#widget_pager_bottom_slider_view-block div.views-slideshow-pager-field-item a {
+  /*text-indent: -1999px;*/
+  visibility: hidden;*/
+}
+
+/*    Paginador     */
+
+/* Novedades */
+
+/* Galerías */
+#galerias {
+  background: #ffffff;
+  border-radius: 32px;
+  margin-top: 13%;
+}
+
+/*    Imágenes  */
+#imagenes {
+  position: relative;
+  background: url('/sites/all/themes/omegaapaches/images/images_icon.png') transparent no-repeat scroll;
+}
+
+#videos {
+  position: relative;
+  background: url('/sites/all/themes/omegaapaches/images/video_icon.png') transparent no-repeat scroll;
+}
+/*    Imágenes */
+
+
+#galerias div.pane-content {
+  padding-bottom: 5.5%;
+}
+
+
+/*  Galerías */
+
+/*  Contacto */
+#contacto {
+  background: #ffffff;
+  border-radius: 32px;
+}
+
+#contacto div.pane-content {
+  padding-bottom: 5.5%;
+}
+
+/*  Contacto */
+
+/* Contenido */
+
+/* Nodo Galerías */
+.node-gallery {
+  float: left;
+  width: 150px;
+  height: 150px;
+  position: relative;
+    margin: 0 60px 50px 0;
+}
+ 
+.node-gallery img {
+    position: absolute;
+    bottom:0px;
+}
+ 
+.node-gallery .image1 {left: 0px;
+  z-index: 3;
+  -webkit-transition:all 0.2s ease;
+  -moz-transition:all 0.2s ease;
+  -o-transition:all 0.2s ease
+}
+ 
+.node-gallery .image2 {left: 7px;
+  height: 148px;
+  z-index: 2;
+  -webkit-transition:all 0.2s ease;
+  -moz-transition:all 0.2s ease;
+  -o-transition:all 0.2s ease
+}
+ 
+.node-gallery .image3 {left: 14px;
+  height: 145px;
+  z-index: 1;
+  -webkit-transition:all 0.2s ease;
+  -moz-transition:all 0.2s ease;
+  -o-transition:all 0.2s ease
+}
+ 
+.image1, .image2, .image3{
+  border: 5px solid #F3F3F3;
+  box-shadow: 1px 1px 2px #666;
+  -webkit-shadow:1px 1px 2px #666;
+  -webkit-transform:rotate(0deg) translate(0px);
+}
+ 
+.node-gallery:hover .image1{
+   z-index: 6;
+  -ms-transform: rotate(-5deg) translate(-40px, -2px);
+  -ms-transform-origin:center bottom;
+  -webkit-transform: rotate(-5deg) translate(-40px, 2px);
+  -webkit-transform-origin:center bottom;
+  -moz-transform: rotate(-5deg) translate(-40px, -2px);
+  -moz-transform-origin:center bottom;
+  -o-transform: rotate(-5deg) translate(-40px, -2px);
+  -o-transform-origin:center bottom;
+}
+ 
+.node-gallery:hover .image2{
+   z-index: 5;
+  -ms-transform: rotate(-2deg) translate(0px, 2px);
+  -ms-transform-origin:center bottom;
+  -webkit-transform: rotate(-2deg) translate(0px, -2px);
+  -webkit-transform-origin:center bottom;
+  -moz-transform: rotate(-2deg) translate(0px, 2px);
+  -moz-transform-origin:center bottom;
+  -o-transform: rotate(-2deg) translate(0px, 2px);
+  -o-transform-origin:center bottom;
+}
+ 
+.node-gallery:hover .image3{
+   z-index: 4;
+  -ms-transform: rotate(5deg) translate(40px,-2px);
+  -ms-transform-origin:center bottom;
+  -webkit-transform: rotate(5deg) translate(40px,2px);
+  -webkit-transform-origin:center bottom;
+  -moz-transform: rotate(5deg) translate(40px,-2px);
+  -moz-transform-origin:center bottom;
+  -o-transform: rotate(5deg) translate(40px,-2px);
+  -o-transform-origin:center bottom;
+}
+
+
+/*
+ * =================================================================
+ * Footer
+ * =================================================================
+ */
+
+/* Desierto */
+div#zone-footer.zone.zone-footer.clearfix.container-12 {
+  width: auto;
+}
+
+div#region-footer-first.grid-12.region.region-footer-first {
+  width: auto;
+  /*margin-left: -26.5%;*/
+  margin-top: -14%;
+  z-index: -1;
+  position: relative;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+div#region-footer-second.grid-12.region.region-footer-second {
+  width: auto;
+
+}
+
+div.region-inner.region-footer-second-inner {
+  width:auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Social */
+div#footer-social {
+  position: relative;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  z-index: 0;
+  width: auto;
+  margin-top: -26.3%;
+  margin-left: 34.2%;
+}
+
+div#footer-social-facebook {
+  margin-top: -4.3%;
+  margin-left: 10%;
+  width: auto;
+}
+
+div#footer-social-youtube {
+  margin-top: -3.7%;
+  margin-left: 18.9%;
+  width: auto;
+}
+
+/*
+ * -------------------------------------------------------------
+ * Footer social
+ * -------------------------------------------------------------
+ */
+/*
+div#block-block-8.block.block-block.contextual-links-region.block-8.block-block-8.even.block-without-title {
+  position: relative;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  z-index: 0;
+  margin-top: -14%;
+  height: 80px;
+}
+*/
+
+/*
+div.region-inner.region-footer-first-inner {
+    background: url('/sites/all/themes/omegaapaches/images/twitter.png'), url('/sites/all/themes/omegaapaches/images/youtube.png'), url('/sites/all/themes/omegaapaches/images/facebook.png');
+  background-position: 35% 47%, 48.5% 56%, 42% 51%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+div#region-footer-second {
+    margin-top: -25px;
+}
+
+/*
+div#zone-footer-wrapper {
+  position: relative;
+  background: url('/sites/all/themes/omegaapaches/images/twitter.png'), url('/sites/all/themes/omegaapaches/images/youtube.png'), url('/sites/all/themes/omegaapaches/images/facebook.png'), url('/sites/all/themes/omegaapaches/images/footer.png');
+  background-position: 35% 47%, 48.5% 56%, 42% 51%, 0% -30%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 1554px;
+  height: 701px;
+}
+*/

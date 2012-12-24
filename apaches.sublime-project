@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "/Users/nadir/dweb/apaches"
+		},
+		{
+			"path": "/C/wamp/www/apaches"
 		}
 	]
 }

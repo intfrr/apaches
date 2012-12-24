@@ -1,6 +1,13 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
-
+/*
+ *  =================================================================
+ *  Fondo
+ *  =================================================================
+ */
+body {
+  background: url('../images/bg_picture_title.png') transparent 50% repeat fixed;
+}
 
 /*
  * =================================================================
@@ -11,7 +18,7 @@
 div#zone-user-wrapper {
 /*.zone-wrapper.zone-user-wrapper.clearfix*/
   position: relative;
-  background-image: url('/sites/all/themes/omegaapaches/images/nube1.png'), url('/sites/all/themes/omegaapaches/images/nube2.png'), url('/sites/all/themes/omegaapaches/images/nube_3.png');
+  background-image: url('../images/nube1.png'), url('../images/nube2.png'), url('../images/nube_3.png');
   background-repeat: no-repeat;
 }
 
@@ -180,7 +187,7 @@ div.views-slideshow-controls-top {
 
 #novedades span#views_slideshow_controls_text_previous_slider_view-block {
   position: relative;
-  background-image: url('/sites/all/themes/omegaapaches/images/prev_slider.png');
+  background-image: url('../prev_slider.png');
   background-repeat: no-repeat;
   height: 40px;
   display: inline-block;
@@ -198,7 +205,7 @@ div.views-slideshow-controls-top {
 #novedades span#views_slideshow_controls_text_next_slider_view-block {
   position: relative;
   left: 753px;
-  background-image: url('/sites/all/themes/omegaapaches/images/next_slider.png');
+  background-image: url('../next_slider.png');
   background-repeat: no-repeat;
   display: inline-block;
   height: 40px;
@@ -266,12 +273,12 @@ div.views-slideshow-controls-top {
 /*    Imágenes  */
 #imagenes {
   position: relative;
-  background: url('/sites/all/themes/omegaapaches/images/images_icon.png') transparent no-repeat scroll;
+  background: url('../images/images_icon.png') transparent no-repeat scroll;
 }
 
 #videos {
   position: relative;
-  background: url('/sites/all/themes/omegaapaches/images/video_icon.png') transparent no-repeat scroll;
+  background: url('../images/video_icon.png') transparent no-repeat scroll;
 }
 /*    Imágenes */
 

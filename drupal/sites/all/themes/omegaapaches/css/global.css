@@ -18,7 +18,7 @@ body {
 div#zone-user-wrapper {
 /*.zone-wrapper.zone-user-wrapper.clearfix*/
   position: relative;
-  background-image: url('../images/nube1.png'), url('../images/nube2.png'), url('../images/nube_3.png');
+  background-image: url('../images/nube1.png'), url('../images/nube2.png'), url('../images/nube_3.png'), url('../images/resplandor.png');
   background-repeat: no-repeat;
 }
 

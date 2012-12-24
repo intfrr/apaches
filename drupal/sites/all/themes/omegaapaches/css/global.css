@@ -6,7 +6,11 @@
  *  =================================================================
  */
 body {
-  background: url('../images/bg_picture_title.png') transparent 50% repeat fixed;
+  background-image: url('../images/bg_picture_title.png'), url('../images/resplandor.png');
+  background-color: transparent;
+  background-attachment: fixed;
+  background-repeat: repeat, no-repeat;
+  bakcgroun-position: 50%, center;
 }
 
 /*
@@ -18,7 +22,7 @@ body {
 div#zone-user-wrapper {
 /*.zone-wrapper.zone-user-wrapper.clearfix*/
   position: relative;
-  background-image: url('../images/nube1.png'), url('../images/nube2.png'), url('../images/nube_3.png'), url('../images/resplandor.png');
+  background-image: url('../images/nube1.png'), url('../images/nube2.png'), url('../images/nube_3.png');
   background-repeat: no-repeat;
 }
 

@@ -6,11 +6,11 @@
  *  =================================================================
  */
 body {
-  background-image: url('../images/bg_picture_title.png'), url('../images/resplandor.png');
-  background-color: transparent;
-  background-attachment: fixed;
-  background-repeat: repeat, no-repeat;
-  bakcgroun-position: 50%, center;
+  background-image: url('../images/resplandor.png');
+  background-color: #5CADD0;
+  /*background-attachment: fixed;*/
+  background-repeat: no-repeat;
+  background-position: 47.7% -13.15%;
 }
 
 /*
